@@ -1,20 +1,2 @@
-
-git init
-git status
-git add --all
-git status
-git config --global user.email "mj.vel.czarny@gmail.com"
-git config --global user.name "Marek J."
-git commit
-# Now we are in text editor, add comment and save the file
-git status
-git log
-git diff
-git diff --cached
-git diff --staged
-git commit --amend -m "komentarz"
-
-#git stash
-
-
+???
 
