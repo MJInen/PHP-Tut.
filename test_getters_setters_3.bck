@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+
+        <?php
+            class Movie
+            {
+                public $title;
+                private $rating;
+
+                function __construct($title, $rating)
+                { // G, PG, PG-13, R, NR
+                    // $rating = "FFFFFF";
+                    $this -> title = $title;
+                    $this -> rating = $rating;
+                }
+
+                function getRating()
+                {
+                    return $this -> rating;
+                }
+
+                function setRating($rating)
+                {
+                    $this->rating = $rating;
+                }
+            }
+
+            $avengers = new Movie("Avangers", "PG-13");
+
+            $avengers->setRating("Dog");
+            echo $avengers -> getRating();
+
+        ?>
+
+    </body>
+</html>
+
+
+
