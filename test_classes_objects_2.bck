@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        
+        <?php
+            class Book
+            {
+//                !!!!!!!!!
+                var $title;
+//                var $author;
+                var $pages;
+//                !!!!!!!
+                function __construct()
+                {
+                    echo "<br>New Book Created<br>";
+                }
+            }
+        
+            $book1 = new Book();
+            $book1->title = "ABC";
+            $book1->author = "Ktoś";
+            $book1->pages = 123.7;
+            $book1->xyz1 = "???";
+            echo $book1->xyz1;
+
+            $book2 = new Book();
+            $book2->title = "Second book";
+            $book2->author = "Też Ktoś";
+            $book2->pages = 4711;
+            $book2->xyz2 = "???";
+            echo $book2->xyz2;
+
+        ?>
+        
+    </body>
+</html>
+
+
+
+

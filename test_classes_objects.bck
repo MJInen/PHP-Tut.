@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        
+        <?php
+            class Book
+            {
+//                !!!!!!!!!
+//                var $title;
+//                var $pages;
+//                var $authors;
+//                !!!!!!!
+            }
+        
+            $book1 = new Book;
+            $book1->title = "ABC";
+            $book1->author = "Ktoś";
+            $book1->pages = 123.7;
+            $book1->xyz = "???";
+        
+            echo $book1->xyz;
+        ?>
+        
+    </body>
+</html>
+
+
+
+

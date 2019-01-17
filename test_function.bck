@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        
+        
+<!--
+        <form action="test.php" method="post">
+              Student Name: <input type="text" name="student">
+              <input type="submit">
+        </form>
+-->
+
+        <?php
+            function sayHi($par)
+            {
+                echo $par . "<br>";
+                return 2 + 2;
+            }
+        
+            $val = sayHi("Pam");
+            $val = sayHi("1");
+            $val = sayHi("2");
+            echo "---> ".$val;
+        ?>
+        
+    </body>
+</html>
+
+
+
+

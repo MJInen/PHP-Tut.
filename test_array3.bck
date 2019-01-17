@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        
+        
+<!--
+        <form action="test.php" method="post">
+              Apple: <input type="checkbox" name="fruits[]" value="apples"><br>
+              Oranges: <input type="checkbox" name="fruits[]" value="oranges"><br>
+              Pears: <input type="checkbox" name="fruits[]" value="pears"><br>
+              <input type="submit">
+        </form>
+-->
+
+        <?php
+            $students = array("Jim"=>"A+", "Jim"=>"B-", "Oscar"=>"C+");
+            echo $students["Jim"]; // !!!
+        ?>
+        
+    </body>
+</html>
+
+
+
+
